@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+    clear: both;
+    content: "";
+    display: table;
+    margin: 0 auto;
+    height: 100%;
+}
+.container h1{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.square{
+    border: 1px solid red;
+    font-size: 16px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin-top: -1px;
+    margin-left: -1px;
+    cursor: pointer;
+    float: left;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background: #614101;
+    color: aliceblue;
+    font-size: 16px;
+    border-radius: 5px;
+}
